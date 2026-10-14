@@ -1,0 +1,161 @@
+/* p {
+    color: red;
+}
+
+#para2{
+    color: black;
+    background-color: red;
+
+}
+
+#para3 {
+    width: 350px;
+    padding: 50px;
+    border: 10px solid gray;
+    margin: 0px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+
+div p{
+    background-color: azure;
+}
+
+div > p{
+    background-color: aquamarine;
+}
+
+.hover-link:hover{
+    color: orange;
+}
+
+#static{
+    position: static;
+    border: 3px solid red;
+}
+
+#relative{
+    position: relative;
+    left: 30px;
+    border: 3px dotted rgb(72, 255, 0);
+    z-index: 30;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    border: 3px solid red;
+    z-index: 50;
+}
+
+
+.class1{
+    color: aqua;
+}
+
+
+
+h2, h3, p{
+    color: rgb(144, 213, 24);
+} */
+
+
+
+#combinator p{
+    color: blue;
+}
+
+
+
+#xyz:hover{
+    color: red;
+}
+
+#static{
+    position: static;
+    border: 3px solid red;
+    width: 100px;
+    height: 80px;
+}
+
+#relative{
+    position: relative;
+    left: 30px;
+    border: 3px dotted red;
+    width: 200px;
+
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    border: 3px dashed red;
+    z-index: 2;
+    background-color: azure;
+
+}
+
+#relativee{
+    position: relative;
+    left: 30px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+#absolute{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 150px;
+    height: 100px;
+    border: 3px dotted green;
+}
+
+#sticky{
+    position: sticky;
+    top: 0px;
+    background-color: aquamarine;
+    border: 2 px solid yellowgreen;
+    z-index: 1000;
+
+}
+
+#d{
+    height: 1000px;
+    border: 2px solid gray;
+}
+
+
+
+/* #relativee{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+#absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 150px;
+    height: 100px;
+    border: 3px dotted gray;
+}
+
+#sticky{
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid yellow;
+    z-index: 60;
+}
+
+#a{
+    height: 700px;
+} */
