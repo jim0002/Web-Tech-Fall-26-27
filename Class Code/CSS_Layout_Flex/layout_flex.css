@@ -1,0 +1,57 @@
+
+/* Header */
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.topnav {
+    display: flex;
+    background-color: #333;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Three Column Layout */
+.row {
+    display: flex;
+}
+
+/* Common CSS for All Columns */
+.column {
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 280px;
+    background: #dce7fb;
+    text-align: center;
+}
+
+/* Left and Right Columns */
+.column.side {
+    flex: 1;
+}
+
+/* Middle Column */
+.column.middle {
+    flex: 2;
+    background: white;
+}
+
+/* Footer */
+.footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
